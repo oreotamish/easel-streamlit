@@ -1,0 +1,6 @@
+streamlit
+st-pages
+dotenv
+opencv-python
+cryptography
+qrcode

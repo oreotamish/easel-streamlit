@@ -6,8 +6,6 @@ import requests
 from helper import list_objects, presigned_url
 from cryptography.fernet import Fernet
 import os
-import base64
-
 
 Key = (os.environ["encryption_key"]).encode()
 f = Fernet(Key)

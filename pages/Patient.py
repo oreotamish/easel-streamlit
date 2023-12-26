@@ -4,7 +4,6 @@ import io
 import time
 from cryptography.fernet import Fernet
 import os
-import base64
 from helper import (
     check_patient_folder,
     create_user_folder,
